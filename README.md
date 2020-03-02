@@ -1,6 +1,8 @@
 # Adams-et-al-2020
 Code and data for Adams et al 2020, Nature Climate Change, "Diminishing CO2-driven gains in water use efficiency of global forests"
 
+https://doi.org/10.5281/zenodo.3693240
+
 This repository contains R code and associated data used to generate output presented in  the paper referenced above. Measurements of stable carbon isotope discrimination in tree rings, or quantities derived therefrom, were collated from the literature and used to calculate intrinsic water use efficiency (W, the ratio of net CO2 assimilation rate to stomatal conductance) and its rate of change with respect to atmospheric CO2 concentration (ca), or dW/dca, over the 20th century. 
 
 isotopes.R: R code to process tree ring isotope data series reported in different forms (e.g., d13C, WUE, ci,  Delta) and calculate rates of change of imputed intrinsic water use efficiency with respect to atmospheric CO2 concentration. 
